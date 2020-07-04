@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Logo from '../../assets/images/logo.svg';
 import Moeda from '../../assets/images/moeda.png';
@@ -12,7 +13,7 @@ function Header() {
     <Container>
         <div className="conteudoHeader" >
             <div className="logo" >
-                <img src={Logo} border="0" alt=""/>
+                <Link to="/"><img src={Logo} border="0" alt=""/></Link>
             </div>
             <div className="bonificacao" >
                 <div>
