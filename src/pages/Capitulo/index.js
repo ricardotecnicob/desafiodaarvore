@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import { Container, BackgroundPage, AreaCapitulos } from './styles';
 
 import Book from '../../assets/images/Book.png';
@@ -23,50 +25,50 @@ function Capitulo() {
               <img src={Book} border="0" alt="" />
             </div>
             <div className="treesCap" >
-                <div class="areacaptree" >
+                <Link to="/orientacao" class="areacaptree" >
                     <img src={Trees1} border="0" alt="" />
                     <label htmlFor="">CAPITULO 1</label>
-                </div>
-                <div class="areacaptree" >
+                </Link>
+                <Link to="/orientacao" class="areacaptree" >
                     <img src={Trees2} border="0" alt="" />
                     <label htmlFor="">CAPITULO 2</label>
-                </div>
-                <div class="areacaptree" >
+                </Link>
+                <Link to="/orientacao" class="areacaptree" >
                     <img src={Trees3} border="0" alt="" />
                     <label htmlFor="">CAPITULO 3</label>
-                </div>
-                <div class="areacaptree" >
+                </Link>
+                <Link to="/orientacao" class="areacaptree" >
                     <img src={Trees4} border="0" alt="" />
                     <label htmlFor="">CAPITULO 4</label>
-                </div>
-                <div class="areacaptree" >
+                </Link>
+                <Link to="/orientacao" class="areacaptree" >
                     <img src={Trees5} border="0" alt="" />
                     <label htmlFor="">CAPITULO 5</label>
-                </div>
-                <div class="areacaptree" >
+                </Link>
+                <Link to="/orientacao" class="areacaptree" >
                     <img src={Trees6} border="0" alt="" />
                     <label htmlFor="">CAPITULO 6</label>
-                </div>
-                <div class="areacaptree" >
+                </Link>
+                <Link to="/orientacao" class="areacaptree" >
                     <img src={Trees7} border="0" alt="" />
                     <label htmlFor="">CAPITULO 7</label>
-                </div>
-                <div class="areacaptree" >
+                </Link>
+                <Link to="/orientacao" class="areacaptree" >
                     <img src={Trees8} border="0" alt="" />
                     <label htmlFor="">CAPITULO 8</label>
-                </div>
-                <div class="areacaptree" >
+                </Link>
+                <Link to="/orientacao" class="areacaptree" >
                     <img src={Trees9} border="0" alt="" />
                     <label htmlFor="">CAPITULO 9</label>
-                </div>
-                <div class="areacaptree" >
+                </Link>
+                <Link to="/orientacao" class="areacaptree" >
                     <img src={Trees10} border="0" alt="" />
                     <label htmlFor="">CAPITULO 10</label>
-                </div>
-                <div class="areacaptree" >
+                </Link>
+                <Link to="/orientacao" class="areacaptree" >
                     <img src={Trees11} border="0" alt="" />
                     <label htmlFor="">CAPITULO 11</label>
-                </div>
+                </Link>
             </div>
         </AreaCapitulos>
     </Container>
