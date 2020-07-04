@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Personagem from '../../assets/images/person.png';
+import Book from '../../assets/images/Book.png';
 
 import { Container, BackgroundPage, Book2Apresentacao } from './styles';
 
@@ -14,6 +15,7 @@ function Orientacao() {
                   <img src={Personagem} border="" alt="" />
                 </div>
                 <div className="areaDescricao" >
+                  <img src={Book} border="" alt="" /><br/>
                   Olá esse é o <span>Leitor</span> <br/>
                   ele vai te acompanhar 
                   nessa trajetoria!

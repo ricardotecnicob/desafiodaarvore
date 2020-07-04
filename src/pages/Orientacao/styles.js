@@ -50,11 +50,17 @@ export const Book2Apresentacao = styled.div`
     .areaDescricao{
       width: 50%;
       font-family: 'Acme', sans-serif;
-      font-size: 60px;
+      font-size: 50px;
       text-align:center;
 
       span{
         color: #316C27;
+      }
+
+      img{
+        margin-top: 20px;
+        height: 150px;
+        margin-left: 50px;
       }
 
     }
