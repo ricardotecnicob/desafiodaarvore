@@ -45,6 +45,7 @@ export const AreaCapitulos = styled.div`
       flex-direction: column;
       margin-right: 10px;
       margin-bottom: 50px;
+      text-decoration: none;
     }
 
     .areacaptree img{
