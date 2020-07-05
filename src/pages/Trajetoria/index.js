@@ -15,7 +15,10 @@ class Trajetoria extends Component {
             <div className="container"> 
                 <div className="container-mapa">
                     <img src={livro} alt="livro" className="livro" />
-                    <img src={mapa} alt="mapa" className="mapaBG" />
+
+                    <React.Suspense fallback={<span>Carregando...</span>}>
+                        <img src={mapa} alt="mapa" className="mapaBG" />
+                    </React.Suspense>
 
                     <div className="container-arvores">
                         <ArvoreCapitulo capitulo="capitulo_1" />

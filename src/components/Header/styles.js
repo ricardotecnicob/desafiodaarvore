@@ -28,6 +28,10 @@ export const Container = styled.div`
         height: 100px;
       }
 
+      a{
+        color: #FFC003;
+      }
+
       .bonificacao{
         display: flex;
         justify-content: space-between;
