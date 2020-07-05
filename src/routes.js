@@ -6,6 +6,7 @@ import Capitulo from './pages/Capitulo';
 import Orientacao from './pages/Orientacao';
 import Trajetoria from './pages/Trajetoria';
 import Leitura from './pages/Leitura/';
+import Questionario from './pages/Questionario';
 
 function Router() {
   return (
@@ -15,6 +16,7 @@ function Router() {
         <Route path="/orientacao" component={Orientacao} /> 
         <Route path="/trajetoria" component={Trajetoria} /> 
         <Route path="/leitura" component={Leitura} /> 
+        <Route path="/questionario" component={Questionario} /> 
     </Switch>
   );
 }

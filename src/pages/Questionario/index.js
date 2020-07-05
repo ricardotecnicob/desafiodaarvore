@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 // import { Link } from 'react-router-dom';
-import PopupLeitura from './PopupLeitura';
+import PopupQuestionario from './PopupQuestionario';
 
-import './assets/css/popup_leitura.css';
+import './assets/css/popup_questionario.css';
 import { Personagem } from './components';
 
 
-class Leitura extends Component {
+class Questionario extends Component {
     render(){
         return (
             <div className="container">
-                <div className="container-mapa-leitura">
-                    <PopupLeitura/>
+                <div className="container-mapa-questionario">
+                    <PopupQuestionario/>
                 </div>
                 
                 <Personagem/>
@@ -22,4 +22,4 @@ class Leitura extends Component {
     }
 }
 
-export default Leitura;
+export default Questionario;
