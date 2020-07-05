@@ -23,6 +23,9 @@ function Header() {
                     <img src={Moeda} border="0" alt=""/> <label htmlFor="">180p</label>
                 </div>
                 <div>
+                    <Link to="/rank">RaNk</Link>
+                </div>
+                <div>
                     <img src={User} border="0" alt=""/>
                 </div>
             </div>
