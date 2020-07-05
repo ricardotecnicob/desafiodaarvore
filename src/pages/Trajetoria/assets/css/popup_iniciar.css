@@ -1,0 +1,142 @@
+.container-popup {
+    background-color: #89B021;
+    box-shadow: 3px 3px 20px rgb(24, 31, 23), 3px 3px 20px rgb(14, 27, 5);
+    opacity: 0.97;
+
+    height: 400px;
+    width: 300px;
+    max-height: 400px;
+    max-width: 300px;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    border-radius: 20px;
+
+    z-index: 10;
+
+}
+
+
+.container-arvore-titulo{
+    height: 100px;
+    /* width: 100%; */
+    position: relative;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+.container-titulo{
+    margin-top: 15px;
+    height: 180px;
+    /* width: 100%; */
+    position: relative;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.container-moedas{
+    /* height: 100%;
+    width: 100%; */
+    position: relative;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.botao-iniciar {
+    cursor: pointer;
+    margin-top: 25px;
+    background-color: #A8D139;
+    color: #FFF;
+    font-size: 22px;
+    font-family: Acme;
+
+    padding: 15px;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #628309;
+    text-shadow: 1px 1px 3px #628309;
+    text-decoration: none;
+
+    height: 50px;
+    /* width: 100%; */
+    position: relative;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-iniciar:hover{
+    background-color: #a6dd0e;
+}
+
+.arvore_botao {
+    height: 50px;
+    padding-right: 10px;
+
+}
+
+
+.moeda {
+    height: 50px;
+}
+
+.escola {
+    height: 50px;
+
+}
+
+
+
+.capitulo_1_menor {
+    height: 100px;
+    /* left: 102px; */
+    top: 20px;
+    /* position: absolute; */
+}
+
+.p_total {
+    margin: 0px;
+    margin-top: 10px;
+    color: #FFC003;
+
+}
+
+.p_titulo {
+    min-width: 100px;
+    margin: 0px;
+    margin-top: 5px;
+    color: #FFF;
+    font-family: Acme;
+    font-size: 26px;
+
+}
+
+
+.link {
+    text-decoration: none;
+}

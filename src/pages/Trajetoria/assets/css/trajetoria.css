@@ -1,0 +1,56 @@
+/* body {
+    background-color: #2b4563;
+    height: 100%;
+    width: 100%;
+} */
+
+.container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-mapa{
+    min-height: 768px;    
+    max-width: 1024px;
+    height: 45em;
+    /* width: 100%; */
+    position: absolute;
+    text-align: center;
+    display: flex;
+}
+
+
+.container-arvores {
+    min-height: 768px;    
+    max-width: 1024px;
+    height: 45em;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+}
+
+.mapaBG {
+    text-align: center;
+    height: 45em;
+    min-height: 768px;    
+    max-width: 1024px;    
+    position: relative;
+    margin: auto;
+    /* filter: blur(2px); */
+}
+
+.livro {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    height: 100px;
+    z-index: 5;
+
+}
+

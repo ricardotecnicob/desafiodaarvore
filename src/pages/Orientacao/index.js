@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 import Personagem from '../../assets/images/person.png';
 import Book from '../../assets/images/Book.png';
@@ -20,7 +22,14 @@ function Orientacao() {
                   ele vai te acompanhar 
                   nessa trajetoria!
                 </div>
+                <div>
+                  <Link to="/trajetoria" className="botaoVamos">
+                    Vamos!
+                  </Link>
+
+                </div>
             </div>
+
         </Book2Apresentacao>
     </Container>
   );
