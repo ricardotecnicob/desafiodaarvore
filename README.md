@@ -56,6 +56,7 @@ https://trello.com/b/IsH5tWB0/megahack-30 <br />
 ![leitura](https://user-images.githubusercontent.com/27907602/86539182-f1f40e80-bed0-11ea-9561-bf492e147177.png)
 ![parte 1](https://user-images.githubusercontent.com/27907602/86543516-c8011300-bef5-11ea-9012-4724409ea22c.jpg)
 ![parte 2](https://user-images.githubusercontent.com/27907602/86543517-c9cad680-bef5-11ea-9ee0-2ee2a2aad23e.jpg)
+![parte 3](https://user-images.githubusercontent.com/27907602/86543584-60979300-bef6-11ea-9066-daf86b3686fe.jpg)
 
 ## Licensa
 
