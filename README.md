@@ -1,68 +1,54 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+<a href="#" alt="Desafio da Árvore">
+  </a></p>
 
-## Available Scripts
+# LINK DE ACESSO
 
-In the project directory, you can run:
+https://desafioarvore.netlify.app/
 
-### `yarn start`
+# Desafio da Árvore - FrontEnd
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Descrição do Problema
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## A solução
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instalação
 
-### `yarn eject`
+Instale as dependencias necessárias.
+```console
+yarn install ou npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Execução
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://github.com/ricardotecnicob/desafiodaarvore <br />
+cd desafiodaarvore <br />
+yarn <br />
+yarn start <br />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Time
 
-## Learn More
+- Alan
+- José
+- Marcus
+- Paladino
+- Ricardo Alves
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Apresentação com Imagens
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![home](https://user-images.githubusercontent.com/27907602/86539147-cf61f580-bed0-11ea-845b-e2ad251920d0.jpg)
+![rank](https://user-images.githubusercontent.com/27907602/86539159-db4db780-bed0-11ea-872e-713050bb1405.jpg)
+![capitulos](https://user-images.githubusercontent.com/27907602/86539166-e6084c80-bed0-11ea-91ca-6511ccae28eb.jpg)
+![orientacao](https://user-images.githubusercontent.com/27907602/86539179-ec96c400-bed0-11ea-9c61-c7f5bc3949f1.png)
+![game mapa desafio](https://user-images.githubusercontent.com/27907602/86539180-ef91b480-bed0-11ea-87bd-12ce3a1ac7f1.png)
+![leitura](https://user-images.githubusercontent.com/27907602/86539182-f1f40e80-bed0-11ea-9561-bf492e147177.png)
 
-### Code Splitting
+## Licensa
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+MIT
