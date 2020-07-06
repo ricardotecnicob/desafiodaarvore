@@ -13,6 +13,7 @@ class Leitura extends Component {
                 <div className="container-mapa-leitura">
                     <PopupLeitura/>
                 </div>
+
                 
                 <Personagem/>
 

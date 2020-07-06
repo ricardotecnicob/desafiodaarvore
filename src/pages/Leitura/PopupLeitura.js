@@ -27,19 +27,28 @@ class PopupLeitura extends Component {
                         </p>
                     </div>
 
+                <div className="container-botoes">
 
-                    
-  
-                <Link to="/questionario" className="link">
+                    <Link to="/trajetoria" className="link">
+                        <button className="botao-questionario">
+                            <div className="texto-botao">
+                                <strong>Voltar</strong>
+                            </div>
 
-                    <button className="botao-iniciar">
-                        <img src={arvore_botao} alt="arvore_botao" className="arvore_botao" />
-                        <strong>Próximo</strong> 
-                    </button>
-                </Link>
+                            <img src={arvore_botao} alt="arvore_botao" className="arvore_botao" />
+                        </button>
+                    </Link>                    
+    
+                    <Link to="/questionario" className="link">
 
-                    <img src={livro} alt="livro" className="livro-leitura" />                    
+                        <button className="botao-iniciar">
+                            <img src={arvore_botao} alt="arvore_botao" className="arvore_botao" />
+                            <strong>Próximo</strong> 
+                        </button>
+                    </Link>
 
+                        <img src={livro} alt="livro" className="livro-leitura" />                    
+                </div>
             </div>
         );
     }
