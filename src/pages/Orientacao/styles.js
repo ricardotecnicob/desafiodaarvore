@@ -65,4 +65,27 @@ export const Book2Apresentacao = styled.div`
 
     }
 
+    .botaoVamos {
+      position: absolute;
+      bottom: 20px;
+      right: 22%;
+      -webkit-text-decoration: none;
+      text-decoration: none;
+      cursor: pointer;
+      font-family: 'Acme',sans-serif;
+      font-size: 30px;
+      color: #fff;
+      background-color: #148800;
+      border-radius: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
+      box-shadow: 1px 1px 5px #778075;
+
+      :hover{
+        background-color: #3aab00;
+
+      }
+    }
+    
+
 `;

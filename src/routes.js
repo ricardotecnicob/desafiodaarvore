@@ -5,6 +5,9 @@ import Home from './pages/Home';
 import Capitulo from './pages/Capitulo';
 import Orientacao from './pages/Orientacao';
 import Rank from './pages/Rank';
+import Trajetoria from './pages/Trajetoria';
+import Leitura from './pages/Leitura/';
+import Questionario from './pages/Questionario';
 
 function Router() {
   return (
@@ -13,6 +16,13 @@ function Router() {
         <Route path="/capitulo"  component={Capitulo} /> 
         <Route path="/orientacao" component={Orientacao} /> 
         <Route path="/rank" component={Rank} /> 
+        <Route path="/trajetoria" component={Trajetoria} /> 
+        <Route path="/leitura" component={Leitura} /> 
+        <Route path="/questionario" component={Questionario} />
+
+        {/* <Route path="*" component={Erro} /> */}
+
+
     </Switch>
   );
 }
